@@ -12,20 +12,15 @@ Fast Forms es una aplicación web responsive y minimalista para crear, compartir
 pnpm install
 ```
 
+- crear y llenar .env:
+
+crear un .env como el de .env.example y pedirme las las claves
+
+
  - Levantar servidor de desarrollo (HMR):
 
 ```bash
-pnpm dev
+pnpm run dev
 ```
 
- - Compilar para producción:
 
-```bash
-pnpm build
-```
-
- - Previsualizar build:
-
-```bash
-pnpm preview
-```
