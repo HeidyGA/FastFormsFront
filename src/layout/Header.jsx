@@ -23,10 +23,10 @@ const Header = () => {
   return (
     <header className="site-header">
 
-      <div className="header-left">
+      <Link to="/" className="header-left">
         <div className="logo-icon">⚡</div>
         <h1 className="site-title">Fast Forms</h1>
-      </div>
+      </Link>
 
       <nav className="header-center">
         <a href="#">Características</a>
